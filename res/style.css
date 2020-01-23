@@ -1,0 +1,128 @@
+
+VBox {
+    -fx-alignment: top-center;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+}
+
+.space-list {
+    -fx-pref-height: 150;
+    -fx-pref-width: 150;
+}
+
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+
+.combo-box {
+    -fx-pref-width: 150;
+    -fx-cursor: hand;
+}
+
+.combo-box-popup > .list-view {
+    -fx-pref-width: 150;
+    -fx-cursor: hand;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-align: center;
+    -fx-text-fill: #333333;
+}
+
+.button {
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 14px;
+    -fx-padding: 10 25 10 25;
+}
+
+.button:hover {
+	-fx-text-fill: #d9d9d9;
+	-fx-cursor: hand;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 0, 0.0 , 0 , 0 );
+}
+
+.menu-bar {
+	-fx-selection-bar: #d9d9d9;
+}
+
+.menu {
+	-fx-padding-left: 5px;
+	-fx-padding-right: 5px;
+}
+
+.menu .label {
+	-fx-font-size: 12px;
+}
+
+.menu:hover, .menu:showing, .menu-item:hover, .menu-item:showing {
+	-fx-cursor: hand;
+	-fx-background-color: #d9d9d9;
+}
+
+.edit-popup {
+    -fx-background-color: #f2f2f2;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 0 , 2 );
+    -fx-background-radius: 5 5 5 5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-border-color: #bfbfbf;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-pref-height: 250;
+    -fx-pref-width: 400;
+    -fx-padding: 0;
+}
+
+.close-button {
+    -fx-background-radius: 5em;
+    -fx-background-color: #ff605c;
+    -fx-min-width: 1em;
+    -fx-min-height: 1em;
+    -fx-max-width: 1em;
+    -fx-max-height: 1em;
+}
+
+.popup-bar {
+    -fx-background-color: #808080;
+    -fx-background-radius: 5 5 0 0;
+    -fx-border-radius: 5 5 0 0;
+    -fx-padding: 5px;
+}
+
+.popup-bar > .label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #f2f2f2;
+}
+
+.radio-button {
+    -fx-padding: 4 5 0 5;
+}
+
+.radio-button:hover {
+    -fx-cursor: hand;
+}
+
+.option-hbox {
+    -fx-alignment: top-center;
+    -fx-padding: 10 0 0 0;
+}
+
+.button-hbox {
+    -fx-alignment: top-center;
+    -fx-padding: 20 0 0 0;
+}
+
+
+
+
+
